@@ -22,9 +22,8 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-background/95 backdrop-blur-sm border-b border-brand-border shadow-red" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-background/95 backdrop-blur-sm border-b border-brand-border shadow-red" : "bg-transparent"
+        }`}
     >
       <div className="container mx-auto flex items-center justify-between py-3 px-4">
         {/* Logo */}
@@ -56,7 +55,7 @@ export default function Navbar() {
 
         {/* CTA Button desktop */}
         <a
-          href="https://wa.me/+584120000000"
+          href="https://wa.me/584120726834"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:inline-flex items-center gap-2 px-5 py-2 font-condensed font-700 text-sm tracking-widest uppercase rounded bg-gradient-red text-primary-foreground shadow-red hover:shadow-none transition-all duration-200 hover:scale-105"
@@ -88,7 +87,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://wa.me/+584120000000"
+            href="https://wa.me/584120726834"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 flex items-center justify-center gap-2 py-3 font-condensed font-700 text-sm tracking-widest uppercase rounded bg-gradient-red text-primary-foreground"

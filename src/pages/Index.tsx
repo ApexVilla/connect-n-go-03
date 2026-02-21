@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Routes from "@/components/Routes";
+import Fleet from "@/components/Fleet";
 import Services from "@/components/Services";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -14,6 +15,7 @@ const Index = () => {
         <Hero />
         <About />
         <Routes />
+        <Fleet />
         <Services />
         <Contact />
       </main>
@@ -21,7 +23,7 @@ const Index = () => {
 
       {/* WhatsApp floating button */}
       <a
-        href="https://wa.me/+584120000000?text=Hola%20FILCURV,%20deseo%20información%20sobre%20sus%20rutas."
+        href="https://wa.me/584120726834?text=Hola%20FILCURV,%20deseo%20información%20sobre%20sus%20rutas."
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp FILCURV"

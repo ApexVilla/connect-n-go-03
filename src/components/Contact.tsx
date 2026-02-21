@@ -9,9 +9,15 @@ const info = [
   },
   {
     icon: Phone,
-    label: "Teléfono / WhatsApp",
-    value: "+58 412 000 0000",
-    href: "tel:+584120000000",
+    label: "Llamadas",
+    value: "+58 412-7337412",
+    href: "tel:+584127337412",
+  },
+  {
+    icon: MessageCircle,
+    label: "WhatsApp",
+    value: "+58 412-0726834",
+    href: "https://wa.me/584120726834",
   },
   {
     icon: Clock,
@@ -65,7 +71,7 @@ export default function Contact() {
 
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/+584120000000?text=Hola%20FILCURV,%20deseo%20información%20sobre%20sus%20rutas%20y%20servicios."
+              href="https://wa.me/584120726834?text=Hola%20FILCURV,%20deseo%20información%20sobre%20sus%20rutas%20y%20servicios."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 w-full py-4 rounded-xl bg-gradient-red text-primary-foreground font-condensed font-700 text-base tracking-widest uppercase shadow-red hover:shadow-none hover:scale-[1.02] transition-all duration-200"

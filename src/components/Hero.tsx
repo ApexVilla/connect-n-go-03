@@ -1,4 +1,4 @@
-import heroHighway from "@/assets/hero-highway.jpg";
+import heroHighway from "@/assets/hero-highway.png";
 
 export default function Hero() {
   return (
@@ -7,11 +7,11 @@ export default function Hero() {
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
       {/* Background Image */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 overflow-hidden">
         <img
           src={heroHighway}
           alt="Carretera FILCURV"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover animate-kenburns origin-center"
         />
         {/* Gradient overlay */}
         <div className="absolute inset-0" style={{ background: "var(--gradient-hero)" }} />
@@ -54,7 +54,7 @@ export default function Hero() {
             Reservar Ahora
           </a>
           <a
-            href="https://wa.me/+584120000000"
+            href="https://wa.me/584120726834"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 font-condensed font-700 text-base tracking-widest uppercase rounded border-2 border-foreground/30 text-foreground hover:border-primary hover:text-primary hover:shadow-red backdrop-blur-sm transition-all duration-200"

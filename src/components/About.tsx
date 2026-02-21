@@ -40,9 +40,34 @@ export default function About() {
             <p className="text-muted-foreground text-base leading-relaxed mb-4">
               <strong className="text-foreground">Transporte FILCURV</strong> — Asociación Civil de Transporte Los Filuos — es una organización legalmente constituida, comprometida con ofrecer un servicio de transporte terrestre seguro, formal y confiable en el Estado Zulia y a nivel nacional.
             </p>
-            <p className="text-muted-foreground text-base leading-relaxed mb-8">
+            <p className="text-muted-foreground text-base leading-relaxed mb-4">
               Operamos desde nuestra sede en la <strong className="text-foreground">Avenida Principal Los Filuos</strong>, Terminal de Pasajeros, Municipio Indígena Bolivariano Guajira, Estado Zulia, Venezuela. Conectamos a Maracaibo con destinos nacionales y la frontera con Colombia.
             </p>
+            <div className="mb-8 p-6 rounded-lg bg-brand-surface border border-brand-border">
+              <p className="text-foreground font-condensed font-700 tracking-wide uppercase mb-3">Nuestras Principales Rutas y Destinos:</p>
+              <ul className="space-y-2">
+                <li className="flex items-center gap-2 text-muted-foreground text-sm">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
+                  Maracaibo y zonas del Municipio Indígena Bolivariano Guajira
+                </li>
+                <li className="flex items-center gap-2 text-muted-foreground text-sm">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
+                  Coro, Falcón, Punto Fijo
+                </li>
+                <li className="flex items-center gap-2 text-muted-foreground text-sm">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
+                  Parada en La Villa del Rosario, Municipio La Villa del Rosario
+                </li>
+                <li className="flex items-center gap-2 text-muted-foreground text-sm">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
+                  Cabimas, Costa Oriental del Lago
+                </li>
+                <li className="flex items-center gap-2 text-muted-foreground text-sm">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
+                  Corredor fronterizo hacia Maicao (Colombia)
+                </li>
+              </ul>
+            </div>
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6">
               {[
